@@ -1530,6 +1530,7 @@ def mat_calculator(x,b,c,d):
             pass        
 def eignValues(X,p):
     try:
+        This are external Functions Used to solve the eqn to get the eignValues
         from math_functions import NewtonRaphson as NR
         from equation import equation
         from polynomial import Multiply_function as mf
